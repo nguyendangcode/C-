@@ -14,6 +14,10 @@ phan_so::phan_so(){
     tu =0;
     mau=1;
 }
+phan_so::phan_so(int tu_,int mau_){
+    tu =tu_;
+    mau=mau_;
+}
 phan_so::~phan_so(){
     std::cout<<" huy khoi tao gia tri";
 }

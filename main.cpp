@@ -10,5 +10,6 @@ int main(void){
     B.tu =4;
     B.mau =1;
     phan_so C= A * B;
+    phan_so  D(1,2);
     return 0;
 }

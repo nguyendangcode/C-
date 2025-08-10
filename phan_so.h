@@ -8,7 +8,7 @@ public:
 
     phan_so();   // Constructor mặc định
     ~phan_so();  // Destructor
-
+    phan_so(int tu_,int mau_);
     void in_phan_so(int tu, int mau);
 
     // Toán tử nhân
