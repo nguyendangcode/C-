@@ -1,3 +1,4 @@
+#pragma once
 class hinh_hoc
 {
 public:
@@ -6,5 +7,7 @@ public:
 
     int tinh_dien_tich();
     int tinh_chu_vi();
+    hinh_hoc();
+    ~hinh_hoc();
 };
 
