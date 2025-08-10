@@ -1,13 +1,16 @@
 #pragma once
-class phan_so
-{
+#include <iostream>
+
+class phan_so {
 public:
     int tu;
     int mau;
 
-    void in_phan_so(int tu,int mau);
-    void nhan_phan_so(int tu1,int mau1,int tu2,int mau2);
-    phan_so();
-    ~phan_so();
-};
+    phan_so();   // Constructor mặc định
+    ~phan_so();  // Destructor
 
+    void in_phan_so(int tu, int mau);
+
+    // Toán tử nhân
+    phan_so operator*(phan_so a);
+};
